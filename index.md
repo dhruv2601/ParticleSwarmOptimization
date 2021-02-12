@@ -37,7 +37,14 @@ Effect of Error vs Number of particles in PSO -
 <img src="resources/ErrorVsNum.png" 
 alt="PSO vs GD" width="600" height="400" border="10" />
 
+## Experiment 3 - 
+Effect of Inertia parameter('a') for velocity update as stated in State of Art - Linearly decreasing the parameter from 0.9 to 0.4 over the defined iterations.
+<img src="resources/inertia.png"
+alt="PSO vs GD" width="600" height="400" border="10" />
+
+Therefore, we observer that while the error reduces with SOTA params, the difference is not really drastic.
 
 ## Created with - 
-1. [Justus Erker](https://github.com/Justus-Jonas)
-2. [Caio Guirado](https://github.com/caioguirado)
+1. [Dhruv Rathi](https://github.com/dhruv2601)
+2. [Justus Erker](https://github.com/Justus-Jonas)
+3. [Caio Guirado](https://github.com/caioguirado)
