@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+# Particle Swarm Optimization vs Gradient Descent
 
-You can use the [editor on GitHub](https://github.com/dhruv2601/ParticleSwarmOptimization/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+* Algorithm - 
+  1. PSO 
+  2. Gradient Descent
+* Benchmarks -
+  1. [Rosenbrock Function](https://en.wikipedia.org/wiki/Rosenbrock_function)
+  2. [Rastrigin Function](https://en.wikipedia.org/wiki/Rastrigin_function)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Results - 
+* PSO on Rosenbrock -
+  * ![PSO on Rosenbrock](resources/Rosenbrock_PSO.gif "PSO on Rosenbrock")
+  
+* PSO on Rastrigin -
+  * ![PSO on Rastrigin](resources/Rastrigin_PSO.gif "PSO on Rastrigin")
 
-### Markdown
+---
+* GD on Rosenbrock - 
+  * ![](resources/RosenbrockGD.gif)
+  
+* GD on Rastrigin - 
+  * ![](resources/RastriginGD.gif)
+  
+## Experiment 1 - 
+Running ~50 iterations of PSO and GD independently to generate probability distribution of error against density - 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<img src="resources/PSOvsGD.png" 
+alt="PSO vs GD" width="600" height="600" border="10" />
+  
+## Observation 1 - 
+While PSO is actively able to achieve the global minima or has very low error, Gradient Descent proves to be ineffective on the benchmarks mentioned.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## Experiment 2 - 
+Effect of Error vs Number of particles in PSO - 
 
-- Bulleted
-- List
+<img src="resources/ErrorVsNum.png" 
+alt="PSO vs GD" width="600" height="400" border="10" />
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dhruv2601/ParticleSwarmOptimization/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Created with - 
+1. [Justus Erker](https://github.com/Justus-Jonas)
+2. [Caio Guirado](https://github.com/caioguirado)
