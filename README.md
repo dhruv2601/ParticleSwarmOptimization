@@ -36,3 +36,8 @@ Effect of Error vs Number of particles in PSO -
 
 <img src="resources/ErrorVsNum.png" 
 alt="PSO vs GD" width="600" height="400" border="10" />
+
+
+## Created with - 
+1. [Justus Erker](https://github.com/Justus-Jonas)
+2. [Caio Guirado](https://github.com/caioguirado)
